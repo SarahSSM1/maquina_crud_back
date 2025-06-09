@@ -57,6 +57,11 @@ O backend é a espinha dorsal do sistema, gerenciando as operações CRUD (Criar
 1. *Instale o PostgreSQL* (se ainda não tiver instalado).
 
 2. *Crie um usuário e um banco de dados:*
+   
+3. *No arquivo de application.properties
+spring.datasource.url=jdbc:postgresql://localhost:5432/vm_manager_db
+spring.datasource.username=seu_usuario_db
+spring.datasource.password=sua_senha_db
 
 bash
 psql -U postgres # Clone o repositório
